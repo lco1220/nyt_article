@@ -1,1 +1,3 @@
-# nyt_article
+# The Odin Project
+
+Project: Positioning and Floating Elements
