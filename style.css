@@ -26,6 +26,7 @@ ul {
 header {
   display: flex;
   flex-direction: column;
+  height: 42px;
 }
 
 #header-f-c {
@@ -38,6 +39,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+#header-f-c-2 {
+  display: none;
 }
 
 #header-btn {
@@ -482,5 +487,62 @@ button.btn-end {
     margin-right: auto;
   }
 
+  #header-f-c, #header-s-c {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #header-f-c-2 {
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    height: 36px;
+    padding: 4px 15px 2px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+
+  #header-btn-search {
+    border: none;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #header-btn-span {
+    font-size: 14.25px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+  }
+
+  #header-btn-span a{
+    color: #000;
+  }
+
+  #header-btn-sl button {
+    transition: ease 0.6s;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: helvetica,arial,sans-serif;
+    padding: 11px 12px 8px;
+    letter-spacing: 0.05em;
+    line-height: 11px;
+    text-transform: uppercase;
+  }
 
 }
