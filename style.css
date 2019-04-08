@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
+  border: 0;
 }
 
 body {
@@ -478,6 +482,193 @@ button.btn-end {
   width: 100%;
 }
 
+#newsletter-sign-up {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-top: 1px solid rgb(0, 0, 0);
+
+}
+
+#newsletter-container {
+  margin: auto;
+  padding-top: 20px;
+  overflow: hidden;
+  width: 660px;
+}
+
+#newsletter-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px;
+}
+
+#newsletter-title {
+  min-width: 360px;
+  padding-right: 30px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+#newsletter-h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+#newsletter-p {
+  color: rgb(102, 102, 102);
+  font-family: Helvetica, sans-serif;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  margin-left: 0px;
+}
+
+#newsletter-btn-email {
+  display: block;
+  margin: 0px;
+  position: relative;
+  width: 100%;
+}
+
+#email-sign-up {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.email-container {
+  color: #000;
+  border: 1px solid rgb(226, 226, 226);
+  display: block;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  height: 30px;
+  line-height: 15px;
+  padding: 4px 4px 4px 8px;
+  position: relative;
+  width: 80%;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.email-input {
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 12px;
+}
+
+#nl-btn-container {
+  margin-top: 0px;
+  width: 24%;
+}
+
+#nl-btn {
+  background: rgb(98, 136, 165) none repeat scroll 0% 0%;
+  border: 1px solid rgb(98, 136, 165);
+  border-radius: 0px 4px 4px 0px;
+  color: rgb(255, 255, 255);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  height: 30px;
+  right: 50px;
+  top: 0px;
+  text-transform: uppercase;
+  width: 20%;
+  min-width: 120px;
+  position: absolute;
+}
+
+#check-updates {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+
+.nl-check-input {
+  margin: 0px 5px 0px 0px;
+  line-height: normal;
+}
+
+span.nl-span {
+  color: rgb(153, 153, 153);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  display: flex;
+}
+
+#nl-pp-cu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.span-privacy {
+  border-left: 0px none;
+  padding-left: 0px;
+}
+
+.span-contact-us {
+  border-left: 1px solid rgb(153, 153, 153);
+}
+
+.pp-cu-style {
+  color: rgb(50, 104, 145);
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  padding: 0px 5px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+/* Medua Queries */
+
+@media only screen and (min-width: 700px) {
+  #newsletter-sign-up {
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 1200px;
+    margin-top: 25px;
+    border-top: 1px solid rgb(0, 0, 0);
+  }
+
+  #newsletter-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+
+  #newsletter-container {
+    margin: 0;
+    width: auto;
+  }
+
+  #newsletter-title {
+    min-width: 360px;
+    padding-right: 30px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+}
+
 @media only screen and (min-width: 768px) {
   .story-main-img {
     width: 945px;
@@ -543,6 +734,18 @@ button.btn-end {
     letter-spacing: 0.05em;
     line-height: 11px;
     text-transform: uppercase;
+  }
+
+  .story-header {
+    margin-top: 45px;
+  }
+
+  .title-span {
+    font-size: 36px;
+  }
+
+  #newsletter-sign-up {
+    display: none;
   }
 
 }
