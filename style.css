@@ -88,6 +88,10 @@ header {
   padding-left: 8px;
 }
 
+#site-content {
+  z-index: 899;
+}
+
 #story {
   margin: 0 auto 20px;
   position: relative;
@@ -836,6 +840,7 @@ span.nl-span {
     opacity: 1;
     background-color: #fff;
     top: 0;
+    z-index: 999;
   }
   
   #header-f-c-2 {
@@ -850,7 +855,11 @@ span.nl-span {
     align-items: center;
     height: auto;
     opacity: 1;
-    z-index: 900;
+    z-index: 999;
+  }
+
+  #site-content {
+    z-index: 998;
   }
 
   #header-btn-search {
