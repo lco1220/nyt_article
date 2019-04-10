@@ -860,6 +860,8 @@ span.nl-span {
 
   #site-content {
     z-index: 998;
+    top: 0;
+    padding-top: 40px;
   }
 
   #header-btn-search {
@@ -1047,6 +1049,197 @@ span.nl-span {
     line-height: 23px;
     color: rgb(18, 18, 18);
     font-family: georgia, "times new roman", times, serif;
+  }
+
+  #site-index {
+    max-width: 1272px;
+    margin: 0px auto;
+    padding: 0px 3% 9px;
+  }
+
+  #site-index::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+  }
+
+  #site-index-container {
+    padding: 0;
+  }
+
+  .site-index-header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .site-index-header-logo svg{
+    display: block;
+    height: 44px;
+    vertical-align: middle;
+    width: 184px;
+  }
+
+  .site-index-gth {
+    margin: 18px 0px 0px auto;
+  }
+
+  .site-index-gth a {
+    color: rgb(98, 136, 165);
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+  }
+
+  .site-index-sections {
+    display: block;
+  }
+
+  .site-index-section {
+    display: flex;
+    margin-top: 10px;
+    min-width: 600px;
+  }
+
+  .site-index-item {
+    flex: 1 1 0%;
+  }
+
+  .site-index-item-h3 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 0px;
+  }
+
+  .site-index-list-item a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none;
+  }
+  .site-index-list-item a:hover {
+    text-decoration: underline;
+  }
+
+  .site-index-subscribe {
+    padding-left: 15px;
+    border-left: 1px solid rgb(226, 226, 226);
+    flex: 1 1 0%;
+  }
+
+  .site-index-subscribe-list-item {
+    margin-bottom: 5px;
+    white-space: nowrap;
+  }
+
+  .site-index-subscribe-list-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+
+  .site-index-subscribe-list-link svg {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+
+  .site-index-corporate-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family:Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+
+  .site-index-alternate-links {
+    list-style: none;
+    margin: 2px 0px 0px;
+    padding: 10px 0px 0px;
+    border-top: 1px solid rgb(226, 226, 226);
+  }
+
+  .site-index-alternate-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family:Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+
+  #site-end {
+    margin: 0 auto;
+    max-width: 1272px;
+    padding: 0 3% 9px;
+  }
+
+  #site-end-container {
+    padding-top: 9px;
+    border-top: 1px solid rgb(235, 235, 235);
+    text-align: center;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    line-height: 8px;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 1272px;
+  }
+
+  .footer-list-item {
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 10px;
+    border-left: none;
+  }
+
+  .footer-list-item-link {
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    font-family: helvetica, arial, sans-serif;
+    white-space: nowrap;
+    padding: 10px 0px;
+    text-decoration: none;
   }
 
 }
